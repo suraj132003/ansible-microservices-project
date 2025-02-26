@@ -1,0 +1,8 @@
+---
+- name: Test Ansible on WSL
+  hosts: localhost
+  gather_facts: no
+  tasks:
+    - name: Print a greeting
+      debug:
+        msg: "Hello from Ansible running in WSL!"
